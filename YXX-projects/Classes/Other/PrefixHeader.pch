@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  百思不得姐
+//
+//  Created by Yxx on 16/3/16.
+//  Copyright (c) 2016年 Yxx. All rights reserved.
+//
+
+#ifndef ______PrefixHeader_pch
+#define ______PrefixHeader_pch
+
+#import "UIView+YxxExtension.h"
+#import "UIBarButtonItem+YxxExtansion.h"
+
+#ifdef DEBUG
+#define YXXLog(format, ...) printf("\n[%s] %s [第%d行] %s\n", __TIME__, __FUNCTION__, __LINE__, [[NSString stringWithFormat:format, ## __VA_ARGS__] UTF8String])
+#else
+#define YXXLog(...)
+#endif
+
+#define YXXRGBColor(r,g,b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1.0]
+#define YXXGlobalBg YXXRGBColor(244, 244, 244)
+#define YXXNavigateBg YXXRGBColor(248, 116, 153)
+#define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
+#define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+
+
+
+#endif
