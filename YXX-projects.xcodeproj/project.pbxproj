@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A62F096DE7D6DFFC9E95BEC /* libPods-YXX-projects.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 852C15F29179D8247A39AE52 /* libPods-YXX-projects.a */; };
+		A63EA7931FCBF9F1001AECBB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A63EA7921FCBF9F1001AECBB /* Images.xcassets */; };
 		A65E98E01FC964C800AD0D8F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A65E98DF1FC964C800AD0D8F /* AppDelegate.m */; };
 		A65E98E31FC964C900AD0D8F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A65E98E21FC964C900AD0D8F /* ViewController.m */; };
 		A65E98E61FC964C900AD0D8F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A65E98E41FC964C900AD0D8F /* Main.storyboard */; };
@@ -27,6 +29,7 @@
 		A65E993B1FC96C6E00AD0D8F /* YxxTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = A65E992D1FC96C6E00AD0D8F /* YxxTabBar.m */; };
 		A65E993C1FC96C6E00AD0D8F /* YxxGuidePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = A65E992E1FC96C6E00AD0D8F /* YxxGuidePageView.xib */; };
 		A65E993D1FC96C6E00AD0D8F /* YxxGuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A65E99301FC96C6E00AD0D8F /* YxxGuidePageView.m */; };
+		D398CDB6D0FFA9C43874519E /* libPods-YXX-projectsTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BF2A4FF93DC0F109166E213 /* libPods-YXX-projectsTests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BF2A4FF93DC0F109166E213 /* libPods-YXX-projectsTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXX-projectsTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		300C52472BB910690D2AF5E2 /* Pods-YXX-projects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXX-projects.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXX-projects/Pods-YXX-projects.debug.xcconfig"; sourceTree = "<group>"; };
+		4E11F234AADCB769DB7EB810 /* Pods-YXX-projectsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXX-projectsTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXX-projectsTests/Pods-YXX-projectsTests.release.xcconfig"; sourceTree = "<group>"; };
+		5994EDC7BFB4E579BEEF5567 /* Pods-YXX-projects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXX-projects.release.xcconfig"; path = "Pods/Target Support Files/Pods-YXX-projects/Pods-YXX-projects.release.xcconfig"; sourceTree = "<group>"; };
+		852C15F29179D8247A39AE52 /* libPods-YXX-projects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YXX-projects.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A63EA7921FCBF9F1001AECBB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A65E98DB1FC964C800AD0D8F /* YXX-projects.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YXX-projects.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A65E98DE1FC964C800AD0D8F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A65E98DF1FC964C800AD0D8F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +96,7 @@
 		A65E992F1FC96C6E00AD0D8F /* YxxTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YxxTabBar.h; sourceTree = "<group>"; };
 		A65E99301FC96C6E00AD0D8F /* YxxGuidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YxxGuidePageView.m; sourceTree = "<group>"; };
 		A65E99311FC96C6E00AD0D8F /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A6B8573E9E96CEADE52B5AD4 /* Pods-YXX-projectsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YXX-projectsTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YXX-projectsTests/Pods-YXX-projectsTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +105,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A65E99361FC96C6E00AD0D8F /* libUMessage_Sdk_1.2.6.a in Frameworks */,
+				8A62F096DE7D6DFFC9E95BEC /* libPods-YXX-projects.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +113,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D398CDB6D0FFA9C43874519E /* libPods-YXX-projectsTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,6 +127,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0443EEDED452054032B143E5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				300C52472BB910690D2AF5E2 /* Pods-YXX-projects.debug.xcconfig */,
+				5994EDC7BFB4E579BEEF5567 /* Pods-YXX-projects.release.xcconfig */,
+				A6B8573E9E96CEADE52B5AD4 /* Pods-YXX-projectsTests.debug.xcconfig */,
+				4E11F234AADCB769DB7EB810 /* Pods-YXX-projectsTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		52F164204CDA8935FADB5F1D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				852C15F29179D8247A39AE52 /* libPods-YXX-projects.a */,
+				0BF2A4FF93DC0F109166E213 /* libPods-YXX-projectsTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A65E98D21FC964C800AD0D8F = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +154,8 @@
 				A65E98F61FC964C900AD0D8F /* YXX-projectsTests */,
 				A65E99011FC964C900AD0D8F /* YXX-projectsUITests */,
 				A65E98DC1FC964C800AD0D8F /* Products */,
+				0443EEDED452054032B143E5 /* Pods */,
+				52F164204CDA8935FADB5F1D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -148,6 +182,7 @@
 				A65E98E91FC964C900AD0D8F /* LaunchScreen.storyboard */,
 				A65E98EC1FC964C900AD0D8F /* Info.plist */,
 				A65E98ED1FC964C900AD0D8F /* main.m */,
+				A63EA7921FCBF9F1001AECBB /* Images.xcassets */,
 			);
 			path = "YXX-projects";
 			sourceTree = "<group>";
@@ -192,9 +227,9 @@
 		A65E99121FC96C6E00AD0D8F /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				A65E99151FC96C6E00AD0D8F /* HomeViewController.h */,
 				A65E99131FC96C6E00AD0D8F /* HomeViewController.m */,
 				A65E99141FC96C6E00AD0D8F /* YxxTopicsTableViewController.h */,
-				A65E99151FC96C6E00AD0D8F /* HomeViewController.h */,
 				A65E99161FC96C6E00AD0D8F /* YxxTopicsTableViewController.m */,
 			);
 			path = controller;
@@ -203,8 +238,8 @@
 		A65E99171FC96C6E00AD0D8F /* model */ = {
 			isa = PBXGroup;
 			children = (
-				A65E99181FC96C6E00AD0D8F /* YxxTextModel.m */,
 				A65E99191FC96C6E00AD0D8F /* YxxTextModel.h */,
+				A65E99181FC96C6E00AD0D8F /* YxxTextModel.m */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -212,8 +247,8 @@
 		A65E991A1FC96C6E00AD0D8F /* view */ = {
 			isa = PBXGroup;
 			children = (
-				A65E991B1FC96C6E00AD0D8F /* YxxDiscoveryCell.m */,
 				A65E991C1FC96C6E00AD0D8F /* YxxDiscoveryCell.h */,
+				A65E991B1FC96C6E00AD0D8F /* YxxDiscoveryCell.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -242,10 +277,10 @@
 		A65E99211FC96C6E00AD0D8F /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				A65E99221FC96C6E00AD0D8F /* UIBarButtonItem+YxxExtansion.m */,
-				A65E99231FC96C6E00AD0D8F /* UIView+YxxExtension.m */,
 				A65E99241FC96C6E00AD0D8F /* UIBarButtonItem+YxxExtansion.h */,
+				A65E99221FC96C6E00AD0D8F /* UIBarButtonItem+YxxExtansion.m */,
 				A65E99251FC96C6E00AD0D8F /* UIView+YxxExtension.h */,
+				A65E99231FC96C6E00AD0D8F /* UIView+YxxExtension.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -254,9 +289,9 @@
 			isa = PBXGroup;
 			children = (
 				A65E99271FC96C6E00AD0D8F /* YxxNavigationController.h */,
-				A65E99281FC96C6E00AD0D8F /* YxxTabBarController.m */,
 				A65E99291FC96C6E00AD0D8F /* YxxNavigationController.m */,
 				A65E992A1FC96C6E00AD0D8F /* YxxTabBarController.h */,
+				A65E99281FC96C6E00AD0D8F /* YxxTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -264,11 +299,11 @@
 		A65E992B1FC96C6E00AD0D8F /* View */ = {
 			isa = PBXGroup;
 			children = (
-				A65E992C1FC96C6E00AD0D8F /* YxxGuidePageView.h */,
-				A65E992D1FC96C6E00AD0D8F /* YxxTabBar.m */,
-				A65E992E1FC96C6E00AD0D8F /* YxxGuidePageView.xib */,
 				A65E992F1FC96C6E00AD0D8F /* YxxTabBar.h */,
+				A65E992D1FC96C6E00AD0D8F /* YxxTabBar.m */,
+				A65E992C1FC96C6E00AD0D8F /* YxxGuidePageView.h */,
 				A65E99301FC96C6E00AD0D8F /* YxxGuidePageView.m */,
+				A65E992E1FC96C6E00AD0D8F /* YxxGuidePageView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -280,9 +315,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A65E99071FC964C900AD0D8F /* Build configuration list for PBXNativeTarget "YXX-projects" */;
 			buildPhases = (
+				65A7C1CE3F86D1B33F3101C8 /* [CP] Check Pods Manifest.lock */,
 				A65E98D71FC964C800AD0D8F /* Sources */,
 				A65E98D81FC964C800AD0D8F /* Frameworks */,
 				A65E98D91FC964C800AD0D8F /* Resources */,
+				5AB284B17F2A3FD44F7EA4C5 /* [CP] Embed Pods Frameworks */,
+				A492472DE1367B2A8CF9B8CF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -297,9 +335,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A65E990A1FC964C900AD0D8F /* Build configuration list for PBXNativeTarget "YXX-projectsTests" */;
 			buildPhases = (
+				6A3026DEE474A214BDA04C01 /* [CP] Check Pods Manifest.lock */,
 				A65E98EF1FC964C900AD0D8F /* Sources */,
 				A65E98F01FC964C900AD0D8F /* Frameworks */,
 				A65E98F11FC964C900AD0D8F /* Resources */,
+				623BE5AA12CFF0F8CE7DFE4F /* [CP] Embed Pods Frameworks */,
+				CEBCAC20362436E6E1EDC258 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -380,6 +421,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A65E993C1FC96C6E00AD0D8F /* YxxGuidePageView.xib in Resources */,
+				A63EA7931FCBF9F1001AECBB /* Images.xcassets in Resources */,
 				A65E98EB1FC964C900AD0D8F /* LaunchScreen.storyboard in Resources */,
 				A65E98E81FC964C900AD0D8F /* Assets.xcassets in Resources */,
 				A65E98E61FC964C900AD0D8F /* Main.storyboard in Resources */,
@@ -401,6 +443,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5AB284B17F2A3FD44F7EA4C5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXX-projects/Pods-YXX-projects-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		623BE5AA12CFF0F8CE7DFE4F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXX-projectsTests/Pods-YXX-projectsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		65A7C1CE3F86D1B33F3101C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YXX-projects-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A3026DEE474A214BDA04C01 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-YXX-projectsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A492472DE1367B2A8CF9B8CF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-YXX-projects/Pods-YXX-projects-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXX-projects/Pods-YXX-projects-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEBCAC20362436E6E1EDC258 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YXX-projectsTests/Pods-YXX-projectsTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A65E98D71FC964C800AD0D8F /* Sources */ = {
@@ -580,10 +725,13 @@
 		};
 		A65E99081FC964C900AD0D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 300C52472BB910690D2AF5E2 /* Pods-YXX-projects.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96J3EW52YN;
+				GCC_PREFIX_HEADER = "/Users/Yxx/Documents/项目/YXX/YXX-projects/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "YXX-projects/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -599,10 +747,13 @@
 		};
 		A65E99091FC964C900AD0D8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5994EDC7BFB4E579BEEF5567 /* Pods-YXX-projects.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 96J3EW52YN;
+				GCC_PREFIX_HEADER = "/Users/Yxx/Documents/项目/YXX/YXX-projects/Classes/Other/PrefixHeader.pch";
 				INFOPLIST_FILE = "YXX-projects/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -618,6 +769,7 @@
 		};
 		A65E990B1FC964C900AD0D8F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B8573E9E96CEADE52B5AD4 /* Pods-YXX-projectsTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -632,6 +784,7 @@
 		};
 		A65E990C1FC964C900AD0D8F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E11F234AADCB769DB7EB810 /* Pods-YXX-projectsTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
