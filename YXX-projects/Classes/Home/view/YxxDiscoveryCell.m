@@ -25,11 +25,10 @@
     {
         self.backgroundColor = [UIColor whiteColor];
         self.layer.cornerRadius = selfCornerRadius;
+        self.clipsToBounds = YES;
         _ImageView  = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, self.width, self.width*0.56)];
         _ImageView.backgroundColor = [UIColor grayColor];
         _ImageView.image = [UIImage imageNamed:@"test"];
-        _ImageView.layer.cornerRadius = selfCornerRadius;
-        _ImageView.layer.masksToBounds = YES;
         [self.contentView addSubview:_ImageView];
         
 //        _shadeView = [[UIImageView alloc]initWithFrame:self.bounds];
